@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Call the proprietary setup
-$(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -418,6 +415,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
+
 # ZenParts
 PRODUCT_PACKAGES += \
     ZenParts
+
+# Call the proprietary setup
+$(call inherit-product, vendor/asus/X01BD/X01BD-vendor.mk)
