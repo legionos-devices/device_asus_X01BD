@@ -23,3 +23,7 @@ persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_p
 # Accent Picker
 persist.sys.theme.accentcolor                 u:object_r:theme_prop:s0
 persist.sys.theme.gradientcolor               u:object_r:theme_prop:s0
+
+# GPU/CPU Boosts
+persist.zenparts.gpu_profile                  u:object_r:boosts_prop:s0
+persist.zenparts.cpu_profile                  u:object_r:boosts_prop:s0

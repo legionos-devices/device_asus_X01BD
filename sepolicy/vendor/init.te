@@ -6,3 +6,4 @@ allow init sysfs_mmc_host:file { open write };
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
+allow init vendor_file:file { execute execute_no_trans };
