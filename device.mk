@@ -315,7 +315,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.btmac.sh \
     init.qcom.post_boot.sh \
-    init.qcom.sh
+    init.qcom.sh \
+    init.zenparts.sh \
+    init.spectrum.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -324,7 +326,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     init.spectrum.rc \
-    init.spectrum.sh
+    init.zenparts.rc
 
 # Recovery
 PRODUCT_PACKAGES += \
