@@ -10,6 +10,8 @@ allow system_app camera_prop:property_service set;
 get_prop(system_app, camera_prop);
 allow system_app sysfs_leds:dir search;
 allow system_app fm_prop:property_service set;
+allow system_app sysfs_graphics:dir search;
+allow system_app sysfs_graphics:file rw_file_perms;
 
 ## ZenParts ##
 allow system_app sysfs_backlight:file { open read getattr write };
