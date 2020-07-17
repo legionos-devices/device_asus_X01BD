@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_X01BD.mk
+    $(LOCAL_DIR)/legion_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_X01BD-eng \
-    havoc_X01BD-user \
-    havoc_X01BD-userdebug
+    legion_X01BD-eng \
+    legion_X01BD-user \
+    legion_X01BD-userdebug
