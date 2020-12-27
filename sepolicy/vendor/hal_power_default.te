@@ -1,0 +1,2 @@
+# Allow hal_power_default to read gesture node
+allow hal_power_default proc_tpd_gesture:file rw_file_perms;
